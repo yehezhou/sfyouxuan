@@ -1,0 +1,100 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "91830",
+      "name": "待付款",
+      "font_class": "daifukuan",
+      "unicode": "f013c",
+      "unicode_decimal": 983356
+    },
+    {
+      "icon_id": "706853",
+      "name": "客服",
+      "font_class": "kefu",
+      "unicode": "e61c",
+      "unicode_decimal": 58908
+    },
+    {
+      "icon_id": "1129587",
+      "name": "发票",
+      "font_class": "fapiao",
+      "unicode": "e61d",
+      "unicode_decimal": 58909
+    },
+    {
+      "icon_id": "1271848",
+      "name": "icon_vip",
+      "font_class": "vip",
+      "unicode": "e64c",
+      "unicode_decimal": 58956
+    },
+    {
+      "icon_id": "3369354",
+      "name": "配送",
+      "font_class": "peisong",
+      "unicode": "e678",
+      "unicode_decimal": 59000
+    },
+    {
+      "icon_id": "3656663",
+      "name": "退款",
+      "font_class": "tuikuan",
+      "unicode": "e684",
+      "unicode_decimal": 59012
+    },
+    {
+      "icon_id": "4662729",
+      "name": "礼物",
+      "font_class": "liwu",
+      "unicode": "e62b",
+      "unicode_decimal": 58923
+    },
+    {
+      "icon_id": "4685733",
+      "name": "地址",
+      "font_class": "Group-",
+      "unicode": "e698",
+      "unicode_decimal": 59032
+    },
+    {
+      "icon_id": "5269233",
+      "name": "门店",
+      "font_class": "mendian",
+      "unicode": "e628",
+      "unicode_decimal": 58920
+    },
+    {
+      "icon_id": "6536711",
+      "name": "历史",
+      "font_class": "lishi",
+      "unicode": "e659",
+      "unicode_decimal": 58969
+    },
+    {
+      "icon_id": "7291078",
+      "name": "评价",
+      "font_class": "pingjia",
+      "unicode": "e629",
+      "unicode_decimal": 58921
+    },
+    {
+      "icon_id": "7440455",
+      "name": "收藏",
+      "font_class": "shoucang",
+      "unicode": "e6a7",
+      "unicode_decimal": 59047
+    },
+    {
+      "icon_id": "10651916",
+      "name": "安全",
+      "font_class": "anquan-",
+      "unicode": "e64d",
+      "unicode_decimal": 58957
+    }
+  ]
+}

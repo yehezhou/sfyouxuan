@@ -1,0 +1,152 @@
+html, body {
+    height: 100%;
+    font-size: 13.333333vw;
+}
+
+body {
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    background: #f8f8f8;
+    /* border-right: 1px solid #b2b2b2; */
+    /* border-top: 1px solid #b2b2b2; */
+    overflow-x: hidden;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    overflow-y: auto;
+    width: 100%;
+    margin: auto;
+    border-top: 1px solid #b2b2b2;
+}
+.nav{
+    display: flex;
+    font-size: 0.28rem;
+    height: 0.88rem;
+    background: #fff;
+}
+.nav strong{
+    font-size: 0.28rem;
+    margin-right: 1.7rem;
+    margin-left: 0.17rem;
+    line-height: 0.8rem;
+}
+.nav p{
+    position: relative;
+    margin-right: 0.9rem;
+    line-height: 0.8rem;
+}
+.nav span{
+    position: absolute;
+    display: block;
+    width: 0.58rem;
+    height: 0.06rem;
+    background: #76ac01;
+    top: 0.65rem;
+    left: 2.05rem;
+}
+.sliderBox{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    overflow: hidden;
+}
+.sliderList{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    height: 7.5rem;
+}
+.sliderList li{
+    width: 100%;
+    list-style: none;
+}
+.sliderList li img{
+    display: block;
+    border: none;
+    width: 7rem;
+}
+.sliderBox, .sliderList{
+    width: 100%;
+    height: 7.5rem; 
+}
+.info, .info2{
+    padding-left: 0.32rem;
+    padding-right: 0.32rem;
+    background: #fff;
+    margin-top: 0.1rem;
+}
+.info p:nth-of-type(1){
+    font-size: 0.36rem;
+    color: #db0507;
+}
+.info p:nth-of-type(2){
+    font-size: 0.3rem;
+    /* margin-left: 0.3rem; */
+}
+.info p del{
+    font-size: 0.2rem;
+    color: #5a5a5a;
+}
+.info2{
+    height: 1rem;
+}
+.info2 p{
+    font-size: 0.2rem;
+    line-height: 1rem;
+}
+
+.info2 p strong{
+    font-size: 0.26rem;
+    color: #6c6c6c;
+    font-weight: bold;
+    margin-right: 0.6rem;
+}
+.info2 p span{
+    margin-left: 2.3rem;
+}
+.info3 p span{
+    color: #333;
+    margin-left: 0.1rem;
+}
+.tuwenxiangqing p span{
+    margin-left: 0.1rem;
+}
+
+
+
+
+
+.footer{
+    border-top: 2px solid #eeeeee;
+}
+.footer ul{
+    display: flex;
+}
+.footer ul li{
+    width: 1.25rem;
+    height: 0.98rem;
+    border-right: 2px solid #eeeeee;
+}
+.footer ul li a span{
+    font-size: 0.36rem;
+    margin-left: 0.47rem;
+    line-height: 0.98rem;
+}
+.footer ul li:nth-of-type(4),.footer ul li:nth-of-type(5){
+    font-size: 0.28rem;
+    text-align: center;
+    line-height: 0.98rem;
+    width: 1.87rem;
+}
+.footer ul li:nth-of-type(5){
+    background: #8fc319;
+    color: #fff;
+    border-right: none;
+}
+.footer ul li:nth-of-type(5) a{
+    color: #fff;
+}

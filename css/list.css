@@ -1,0 +1,135 @@
+html , body{
+    height: 100%;
+    font-size: 13.333333vw;
+}
+body{
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    width: 100%;
+    height: 1.7rem;
+    border-top: 1px solid #b2b2b2;
+}
+.header_t{
+    height: 0.8rem;
+    margin-top: 0.17rem;
+    margin-left: 0.34rem;
+}
+.header_t span{
+    font-size: 0.28rem;
+    color: #010101;
+    margin-right: 0.3rem;
+}
+.header_t input{
+    width: 5.3rem;
+    height: 0.73rem;
+    background: #f7f7f7;
+    text-align: center;
+    line-height: 0.73rem;
+}
+.nav{
+    overflow-x: auto;
+    /* width: 6.56rem; */
+    position: relative;
+}
+.nav ul{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 0.34rem;
+}
+.nav ul li{
+    margin-right: 0.4rem;
+    flex: 0 0 auto;
+}
+.nav ul li a{
+    font-size:0.26rem;
+    line-height: 0.6rem;
+}
+.nav ul li:nth-child(1) a{
+    color: #2b8335;
+}
+.nav ul li:nth-child(1){
+    position: relative;
+}
+
+.nav ul li:hover a{
+    color: #2b8335;
+}
+header .iconfont{
+    position: absolute;
+    left: 6.67rem;
+    top: 0.4rem;
+    font-size: 0.38rem;
+}
+
+.content{
+    flex: 1;
+    overflow-y: auto;
+    background: #f8f8f8;
+    border-top: 1px solid #b2b2b2;
+}
+
+.info{
+    padding: 0.14rem 0.32rem;
+    background: #fff;
+    margin-bottom: 0.1rem;
+  
+    display: flex;
+}
+.info img{
+    width: 2.5rem;
+    margin-right: 0.24rem;
+}
+.info_r p:nth-of-type(1){
+    font-size: 0.28rem;
+}
+.info_r p:nth-of-type(2){
+    font-size: 0.2rem;
+    color: #ed7225;
+    margin-top: 0.8rem;
+}
+.info_r span:nth-of-type(1){
+    font-size: 0.22rem;
+    color: #a9a9a9;
+    margin-top: 0.26rem;
+}
+.info_r span:nth-of-type(2){
+    font-size: 0.5rem;
+    color: #b2ce57;
+    margin-left: 1.2rem;
+}
+
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer dl {
+    margin-bottom: 0.15rem;
+}
+
+.footer dl dt {
+    text-align: center;
+    margin-top: 0.15rem;
+}
+
+.footer dl dt span {
+    /* width: 0.9rem; */
+    font-size: 0.4rem;
+}
+
+.footer dl dd {
+    font-size: 0.18rem;
+}
+
+.footer dl:hover dt span {
+    color: #029a43;
+}
+
+.footer dl:hover dd {
+    color: #029a43;
+}

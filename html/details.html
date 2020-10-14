@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>详情</title>
+    <link rel="stylesheet" href="../css/details.css">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../font/iconfont.css">
+    <link rel="stylesheet" href="../font2/iconfont.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">  
+   <script src="../js/jquery.1.11.3.js"></script>
+    <style>
+        .swiper-slide {
+            display: block;
+            text-align: center;
+            font-size: 18px;
+            /* background: #fff; */
+            /* Center slide text vertically */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="content">
+        <section class="nav">
+            <a href="list.html"> <strong><</strong></a>
+            <p>商品</p><span></span>
+            <p>详情</p>
+            <p>评价</p>
+        </section>
+        <section class="sliderBox swiper-container">
+            <ul class="sliderList swiper-wrapper">
+                <li class="swiper-slide"><img src="../img/details/original_3300363305_1_0.jpg" alt=""></li>
+                <li class="swiper-slide"><img src="../img/details/original_3300363305_1_1.jpg" alt=""></li>
+                <li class="swiper-slide"><img src="../img/details/original_3300363305_1_2.jpg" alt=""></li>
+            </ul>
+        </section>
+        <section class="info">
+            <p>¥<span>188</span></p>
+            <p>【预售-预计11.9起发货】本来生活-褚橙5kg(珍品果 XXL型)</p>
+        </section>
+        <section class="info2">
+            <p><strong>促销</strong>限时优惠,售完为止!<span>···</span></p>
+        </section>
+        <section class="info2">
+            <p><strong>发货</strong>供货商直发</p>
+        </section>
+        <section class="info2">
+            <p><strong>产地</strong>中国内地</p>
+        </section>
+        <section class="info2 info3">
+            <p><strong>数量</strong><span>一箱</span></p>
+        </section>
+        <section class="info2">
+            <p><strong>用户评价</strong>还没有评价呢,购买后来发表评价吧~</p>
+        </section>
+        <section class="info2 tuwenxiangqing">
+            <p><strong>图文详情</strong><span></span></p>
+        </section>
+    </section>
+    <section class="footer">
+        <ul>
+            <li><a href="#"><span class="iconfont">&#xe61c;</span></a></li>
+            <li><a href="myCart.html"><span class="iconfont">&#xe66c;</span></a></li>
+            <li><a href="#"><span class="iconfont">&#xe621;</span></a></li>
+            <li><a id="addCart">加入购物车</a></li>
+            <li><a href="#">一键购买</a></li>
+        </ul>
+    </section>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"> </script>
+    <script>
+        var swiper = new Swiper('.swiper-container');
+    </script>
+    <!-- <script src="../js/startMove.js"></script>
+     <script>
+        let oSliderList = document.querySelectorAll(".sliderList")[0];
+        let aList = oSliderList.children;
+        let perWidth = aList[0].offsetWidth;
+        oSliderList.style.width = perWidth * aList.length +"rem";
+
+        let i = 0;
+        let timer = setInterval(function(){
+            i++;
+            if(i == aList.length){
+                i=0;
+            }
+            startMove(oSliderList,{
+                "left": -perWidth * i
+            })
+        },2000);
+    </script> -->
+    <script src="../js/details.js"></script>
+</body>
+
+</html>

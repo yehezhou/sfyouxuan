@@ -1,0 +1,53 @@
+body,ul,li,dl,dt,dd,p,ol,h1,h2,h3,h4,h5,h6,form,img,table,fieldset,legend{
+    margin: 0;
+    padding: 0;
+}
+/* 取消列表符号 */
+ul,li,ol{
+    list-style: none;
+}
+/* 取消下划线 */
+a{
+    text-decoration: none;
+    color: #333;
+}
+/* 取消加粗 */
+h1,h2,h3,h4,h5,h6,strong,b{
+    font-weight: normal;
+}
+/* 取消倾斜 */
+em,i{
+    font-style: normal;
+}
+/* 解决图片3px */
+img{
+    display: block;
+}
+img, fieldset{
+    border: 0;
+}
+/* 取消按钮边框 */
+input,button{
+    border: 0;
+    background: none;
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight: normal;
+}
+input , a{
+    outline: none;
+}
+.clean:after{
+    content: "";
+    display: block;
+    height: 0;
+    clear: both;
+    overflow: hidden;
+}
+html , body{
+    height: 100%;
+}
+body{
+    font-size: 12px;
+    font-family: "微软雅黑";
+}

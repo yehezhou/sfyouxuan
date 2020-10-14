@@ -1,0 +1,132 @@
+html , body{
+    height: 100%;
+    font-size: 13.333333vw;
+}
+body{
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+}
+.content{
+    flex: 1;
+    overflow-y: auto;
+    background: #f8f8f8;
+}
+header{
+    width: 100%;
+    height: 1.7rem;
+    border-top: 1px solid #b2b2b2;
+}
+
+.nav{
+    width: 6.56rem;
+    position: relative;
+    background: #fff;
+}
+.nav h2{
+    width: 7.5rem;
+    text-align: center;
+    font-size: 0.3rem;
+    color: #000;
+    margin-top: 0.15rem;
+}
+.nav ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 0.2rem;
+}
+.nav ul li{
+    flex: 0 0 auto;
+}
+.nav ul li a{
+    font-size:0.26rem;
+    line-height: 0.6rem;
+}
+.nav ul li:nth-child(1) a{
+    color: #2b8335;
+}
+.nav ul li:nth-child(1){
+    position: relative;
+}
+.nav ul li span{
+    display: block;
+    width: 1.12rem;
+    height: 0.06rem;
+    background: #0e8f28;
+    position: absolute;
+    top: 0.55rem;
+}
+.nav ul li:hover a{
+    color: #2b8335;
+}
+.arti{
+    background: #fff;
+    margin-top: 0.22rem;
+}
+.arti_t, .arti_b{
+    width: 6.5rem;
+    margin-left: 0.5rem;
+    display: flex;
+}
+.arti_t img{
+    width: 0.5rem;
+    margin-right: 0.2rem;
+}
+.arti_t h3{
+    font-size: 0.24rem;
+    line-height: 0.5rem;
+    color: #c9c9c9;
+}
+.arti_b dl{
+    width: 3.7rem;
+    margin-top: 0.2rem;
+}
+.arti_b dl dt{
+    font-size: 0.32rem;
+    font-family: "黑体";
+}
+.arti_b dl dd , .arti_b dl p{
+    font-size: 0.24rem;
+    color: #bfbfbf;
+    margin-top: 0.1rem;
+}
+.arti_b img{
+    width: 2.2rem;
+    border-radius: 0.06rem;
+    margin-left: 0.4rem;
+}
+.arti_t {
+    padding-top: 0.3rem;
+}
+.arti_b {
+    padding-bottom: 0.46rem;
+}
+
+
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+}
+.footer dl{
+    margin-bottom: 0.15rem;
+}
+.footer dl dt{
+    text-align: center;
+    margin-top: 0.15rem;
+}
+.footer dl dt span{
+    /* width: 0.9rem; */
+    font-size: 0.4rem;
+    
+}
+.footer dl dd{
+    font-size: 0.18rem;
+}
+.footer dl:hover dt span{
+    color: #029a43;
+}
+.footer dl:hover dd{
+    color: #029a43;
+}

@@ -1,0 +1,184 @@
+html, body {
+    height: 100%;
+    font-size: 13.333333vw;
+}
+
+body {
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    flex: 1;
+    overflow-y: auto;
+    background: #f8f8f8;
+}
+
+header {
+    width: 100%;
+    height: 1.7rem;
+    border-top: 1px solid #b2b2b2;
+}
+
+.header_t {
+    height: 0.8rem;
+    margin-top: 0.17rem;
+    margin-left: 0.34rem;
+}
+
+.header_t span {
+    font-size: 0.28rem;
+    color: #010101;
+}
+
+.header_t input {
+    width: 4.7rem;
+    height: 0.73rem;
+    background: #f7f7f7;
+    text-align: center;
+    line-height: 0.73rem;
+}
+
+.nav {
+    overflow-x: auto;
+    width: 6.56rem;
+    position: relative;
+}
+
+.nav ul {
+    display: flex;
+    margin-left: 0.34rem;
+}
+
+.nav ul li {
+    margin-right: 0.4rem;
+    flex: 0 0 auto;
+}
+
+.nav ul li a {
+    font-size: 0.26rem;
+    line-height: 0.6rem;
+}
+
+.nav ul li:nth-child(1) a {
+    color: #2b8335;
+}
+
+.nav ul li:nth-child(1) {
+    position: relative;
+}
+
+.nav ul li span {
+    display: block;
+    width: 1.12rem;
+    height: 0.06rem;
+    background: #0e8f28;
+    position: absolute;
+    top: 0.55rem;
+}
+
+.nav ul li:hover a {
+    color: #2b8335;
+}
+
+header .iconfont {
+    position: absolute;
+    left: 6.67rem;
+    top: 1.2rem;
+    font-size: 0.3rem;
+}
+
+.banner img {
+    width: 7.5rem;
+}
+
+.prodLeiBie {
+    display: flex;
+    justify-content: space-around;
+}
+
+.prodLeiBie dl {
+    margin-top: 0.3rem;
+}
+
+.prodLeiBie dl dd {
+    margin-top: 0.2rem;
+}
+
+.prodLeiBie dl dt img {
+    width: 0.9rem;
+}
+
+.jingXuan h2 {
+    font-size: 0.3rem;
+    text-align: center;
+    line-height: 1.2rem;
+}
+
+.jingxuanProd {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.jingxuanProd dl dt img {
+    width: 2.3rem;
+}
+
+.jingxuanProd dl {
+    width: 2.3rem;
+    text-align: center;
+}
+
+.jingxuanProd dl dd {
+    font-size: 0.24rem;
+    margin-top: 0.2rem;
+}
+
+.jingxuanProd dl p {
+    color: #ff8200;
+}
+.info{
+    width: 100%;
+    height: 1.8rem;
+    background: #f2f2f2;
+    padding-top: 0.3rem;
+}
+.info p{
+    font-size: 0.22rem;
+    color: #949494;
+    text-align: center;
+    line-height: 0.36rem;
+    /* margin-top: 0.2rem; */
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer dl {
+    margin-bottom: 0.15rem;
+}
+
+.footer dl dt {
+    text-align: center;
+    margin-top: 0.15rem;
+}
+
+.footer dl dt span {
+    /* width: 0.9rem; */
+    font-size: 0.4rem;
+}
+
+.footer dl dd {
+    font-size: 0.18rem;
+}
+
+.footer dl:hover dt span {
+    color: #029a43;
+}
+
+.footer dl:hover dd {
+    color: #029a43;
+}
