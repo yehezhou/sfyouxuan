@@ -107,14 +107,9 @@ header p {
     color: #333;
 }
 
-.minus {
-    /* margin-left: 1.2rem; */
+.info_rr img{
+    width: 0.3rem;
 }
-
-.plus {
-    /* margin-left: 0.6rem; */
-}
-
 .footer_t {
     display: flex;
     border-bottom: 1px solid #dddddd;

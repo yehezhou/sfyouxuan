@@ -14,7 +14,7 @@ $(function () {
                         console.log($(".info :nth-of-type(2)").text());
                         $(".info :nth-of-type(2)").text(data.pname);
                         $(".info :nth-of-type(1) span").text(data.pprice);
-                        $(".sliderList :first").text(data.pimg);
+                        $(".sliderList :first").attr("src",data.pimg);
                         $(".tuwenxiangqing :first-child span").text(data.pdesc);
                         $("#addCart").click(function(){
                             if(localStorage.getItem("loginStatus") == 1){
